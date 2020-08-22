@@ -1,30 +1,31 @@
-export const Data = [
+const Data = [
   {
     name: 'Apple',
-    img: '',
+    price: 200,
   },
   {
     name: 'Potato',
-    img: '',
+    price: 150,
   },
   {
     name: 'Watermelon',
-    img: '',
+    price: 300,
   },
   {
     name: 'Banana',
-    img: '',
+    price: 400,
   },
   {
     name: 'Dragon Fruit',
-    img: '',
+    price: 500,
   },
   {
     name: 'Blueberry',
-    img: '',
+    price: 220,
   },
   {
     name: 'Orange',
-    img: '',
+    price: 160,
   },
 ];
+export default Data;

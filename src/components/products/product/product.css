@@ -1,0 +1,28 @@
+button {
+  border: none;
+  outline: none;
+}
+button:focus {
+  outline: none;
+}
+input {
+  outline: none;
+}
+.substract,
+.plus {
+  width: 30px;
+  height: 30px;
+  background: gray;
+  border-radius: 50%;
+}
+.substract:hover,
+.plus:hover {
+  background: gray;
+  opacity: 0.5;
+}
+.plus {
+  margin-left: 5px;
+}
+.substract {
+  margin-right: 5px;
+}
