@@ -26,3 +26,7 @@ input {
 .substract {
   margin-right: 5px;
 }
+img,
+p {
+  cursor: pointer;
+}

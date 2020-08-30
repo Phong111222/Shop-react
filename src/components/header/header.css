@@ -1,0 +1,33 @@
+.header {
+  position: fixed;
+  top: 0;
+  z-index: 998;
+  width: 100%;
+}
+.ListCart {
+  width: 350px;
+  height: 450px;
+  box-shadow: rgb(131, 131, 131) 2px 2px 2px 2px;
+  border-radius: 3px;
+  position: fixed;
+  background: white;
+  z-index: 999;
+  top: 75px;
+  right: 210px;
+}
+.Proceed {
+  cursor: pointer;
+  position: absolute;
+  width: 90%;
+  text-align: center;
+  bottom: 15px;
+  right: 50%;
+  transform: translateX(50%);
+  color: white;
+  background: rgba(62, 181, 236, 0.897);
+  padding: 10px;
+  border-radius: 8px;
+}
+.Proceed:hover {
+  background: rgba(22, 128, 177, 0.897);
+}
